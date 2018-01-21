@@ -3,4 +3,4 @@ A local weather android app that uses JSON parsing and location services of andr
 
 Check it below:
 
-<a href="https://imgflip.com/gif/2337it"><img src="https://i.imgflip.com/2337it.gif" title="made at imgflip.com"/></a>
+<img src="https://media.giphy.com/media/3ohjUN8GnNgMgWVMTm/giphy.gif"/>
