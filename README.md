@@ -4,4 +4,5 @@ A local weather android app that uses JSON parsing and location services of andr
 Check it below:
 
 <img src="https://media.giphy.com/media/3ohjUN8GnNgMgWVMTm/giphy.gif"/>
+<img src="http://gph.is/2mVPStN"/>
 
