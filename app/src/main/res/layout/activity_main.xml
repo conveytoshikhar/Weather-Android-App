@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.shikhar.weatherapp.MainActivity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="#80353A47"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:textColor="#70ECEDEE"
+        android:textAlignment="center"
+        android:text=" How is the "
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="#70ECEDEE"
+        android:layout_centerHorizontal="true"
+        android:text=" today? " />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iconfinal"
+        android:layout_below="@+id/tv3"
+        android:alpha="1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iconpressed"
+        android:layout_below="@+id/tv3"
+        android:alpha="0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:textColor="#80353A47"
+        android:alpha="1"
+        android:text="Finding your local weather..."
+        android:layout_below="@+id/icon1"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+</RelativeLayout>
